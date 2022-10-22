@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml2", "thirdparty\tinyxml2-9.0.0\tinyxml2.vcxproj", "{7524327E-B670-3129-B2E5-A3050B4A5ADA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{AE2453D9-050B-4D1B-9D43-4F6FFCD4085E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{4D5437DF-CFD0-4E75-8EED-8633FF4D8B63}"
@@ -14,27 +12,29 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmltest", "demo\test\xmltes
 		{7524327E-B670-3129-B2E5-A3050B4A5ADA} = {7524327E-B670-3129-B2E5-A3050B4A5ADA}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtinyxml2", "thirdparty\tinyxml2-9.0.0\libtinyxml2.vcxproj", "{7524327E-B670-3129-B2E5-A3050B4A5ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Debug|x64.ActiveCfg = Debug|x64
-		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Debug|x64.Build.0 = Debug|x64
-		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Release|x64.ActiveCfg = Release|x64
-		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Release|x64.Build.0 = Release|x64
 		{4BE073FB-5708-3917-916C-7654269307FC}.Debug|x64.ActiveCfg = Debug|x64
 		{4BE073FB-5708-3917-916C-7654269307FC}.Debug|x64.Build.0 = Debug|x64
 		{4BE073FB-5708-3917-916C-7654269307FC}.Release|x64.ActiveCfg = Release|x64
 		{4BE073FB-5708-3917-916C-7654269307FC}.Release|x64.Build.0 = Release|x64
+		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Debug|x64.ActiveCfg = Debug|x64
+		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Debug|x64.Build.0 = Debug|x64
+		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Release|x64.ActiveCfg = Release|x64
+		{7524327E-B670-3129-B2E5-A3050B4A5ADA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7524327E-B670-3129-B2E5-A3050B4A5ADA} = {AE2453D9-050B-4D1B-9D43-4F6FFCD4085E}
 		{4BE073FB-5708-3917-916C-7654269307FC} = {4D5437DF-CFD0-4E75-8EED-8633FF4D8B63}
+		{7524327E-B670-3129-B2E5-A3050B4A5ADA} = {AE2453D9-050B-4D1B-9D43-4F6FFCD4085E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42AD329E-AC45-3F42-9F24-E3BA0AA4E032}
